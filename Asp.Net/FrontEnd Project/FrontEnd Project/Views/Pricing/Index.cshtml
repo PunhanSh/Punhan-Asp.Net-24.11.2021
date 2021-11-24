@@ -1,0 +1,539 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<header>
+    <nav class="full-nav pricing-full-nav">
+        <div class="responsive-nav-menu" style="background-color: white;">
+            <div class="container">
+                <div class="row pos-rel">
+                    <div class="col-6">
+                        <div class="responsive-logo">
+                            <a href="#"><img src="img/Home-Img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-6 res-menu-bar-col">
+                        <div class="res-menu-bar">
+                            <div class="res-menu-dots">
+                                <div class="full-dots">
+                                    <span class="dots dot1"></span>
+                                    <span class="dots dot2"></span>
+                                    <span class="dots dot3"></span>
+                                </div>
+                            </div>
+                            <a class="res-menu-bar-lines" href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <p class="innerRes-menu-bar-lines" href="#">X</p>
+                            </a>
+                            <div class="res-nav-menu">
+                                <ul class="nav-menu-ul">
+                                    <li>
+                                        <a href="#">Home</a>
+                                        <ul class="home-under-menu">
+                                            <li class="home-under-menu-li">
+                                                <h3 class="hfu-menu">With Animation</h3>
+                                                <a href="#">Home One (IT Startup)</a>
+                                                <a href="#">Home Two (IT Startup)</a>
+                                                <a href="#">Home Three (IT Startup)</a>
+                                                <a href="#">Home Four (IT Startup)</a>
+                                                <a href="#">Home Five (Chatbot)</a>
+                                                <a href="#">Home Six (Chatbot)</a>
+                                                <a href="#">Home Seven (Chatbot)</a>
+                                                <a href="#">Home Eight (Digital Marketing Agency)</a>
+                                            </li>
+                                            <li class="home-under-menu-li">
+                                                <h3 class="hfu-menu">With Animation</h3>
+                                                <a href="#">Home One (IT Startup)</a>
+                                                <a href="#">Home Two (IT Startup)</a>
+                                                <a href="#">Home Three (IT Startup)</a>
+                                                <a href="#">Home Four (IT Startup)</a>
+                                                <a href="#">Home Five (Chatbot)</a>
+                                                <a href="#">Home Six (Chatbot)</a>
+                                                <a href="#">Home Seven (Chatbot)</a>
+                                                <a href="#">Home Eight (Digital Marketing Agency)</a>
+                                            </li>
+                                        </ul>
+                                        <a class="plus" href="#">+</a>
+                                    </li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li>
+                                        <a href="#">Pages</a>
+                                        <ul class="pages-under-menu">
+                                            <li class="pages-under-menu-li">
+                                                <a href="#">Services</a>
+                                                <a href="#">Features</a>
+                                                <a href="#">Team</a>
+                                                <a href="#">Log In</a>
+                                                <a href="#">Sign Up</a>
+                                                <a href="#">FAQ</a>
+                                                <a href="#">404 Error</a>
+                                            </li>
+                                        </ul>
+                                        <a class="plus" href="#">+</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                        <ul class="blog-under-menu">
+                                            <li class="blog-under-menu-li">
+                                                <a href="#">Blog Grid</a>
+                                                <a href="#">Blog Right Sidebar</a>
+                                                <a href="#">Blog Details</a>
+                                            </li>
+                                        </ul>
+                                        <a class="plus" href="#">+</a>
+                                    </li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container container-dots-menu">
+                <div class="row pos-rel">
+                    <div class="col-sm-4 ms-auto">
+                        <div class="full-dots-menu">
+                            <div class="dots-menu">
+                                <a href="#"><i class="fab fa-hotjar"></i>Try It Free Now</a>
+                                <a href="#"><i class="far fa-sign-in"></i>Log In</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid nav-menu-container" style="background-color: white;">
+            <div class="row nav-full-row">
+                <div class="col-md-2 col-lg-2 col-xl-2">
+                    <div class="nav-logo">
+                        <a href="#"><img src="img/Home-Img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-7 col-xl-6 nav-menu-col">
+                    <div class="nav-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Home<i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu-content">
+                                        <h3>With Animation</h3>
+                                        <a asp-controller="Home" asp-action="Index">Home One (IT Startup)</a>
+                                        <a href="#">Home Two (IT Startup)</a>
+                                        <a href="#">Home Three (IT Startup)</a>
+                                        <a href="#">Home Four (IT Startup)</a>
+                                        <a href="#">Home Five (Chatbot)</a>
+                                        <a href="#">Home Six (Chatbot)</a>
+                                        <a href="#">Home Seven (Chatbot)</a>
+                                        <a href="#">Home Eight (Digital Marketing Agency)</a>
+                                    </li>
+                                    <li class="sub-menu-content">
+                                        <h3>With Animation</h3>
+                                        <a href="#">Home One (IT Startup)</a>
+                                        <a href="#">Home Two (IT Startup)</a>
+                                        <a href="#">Home Three (IT Startup)</a>
+                                        <a href="#">Home Four (IT Startup)</a>
+                                        <a href="#">Home Five (Chatbot)</a>
+                                        <a href="#">Home Six (Chatbot)</a>
+                                        <a href="#">Home Seven (Chatbot)</a>
+                                        <a href="#">Home Eight (Digital Marketing Agency)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a asp-controller="About" asp-action="Index">About</a>
+                            </li>
+                            <li>
+                                <a asp-controller="Pricing" asp-action="Index">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">Pages<i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu sub-menu2">
+                                    <li class="sub-menu-content">
+                                        <a asp-controller="Services" asp-action="Index">Services</a>
+                                        <a href="#">Features</a>
+                                        <a asp-controller="Team" asp-action="Index">Team</a>
+                                        <a asp-controller="LogIn" asp-action="Index">Log In</a>
+                                        <a href="#">Sign Up</a>
+                                        <a href="#">FAQ</a>
+                                        <a href="#">404 Error</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Blog<i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu sub-menu2">
+                                    <li class="sub-menu-content">
+                                        <a href="#">Blog Grid</a>
+                                        <a href="#">Blog Right Sidebar</a>
+                                        <a href="#">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a asp-controller="Contact" asp-action="Index">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-4 nav-buttons-col">
+                    <div class="nav-buttons">
+                        <a href="#"><i class="fab fa-hotjar"></i>Try It Free Now</a>
+                        <a href="#"><i class="far fa-sign-in"></i>Log In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="pricing-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="banner-title">
+                        <h2>Transparent Pricing</h2>
+                        <p>Border-less account pricing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <section class="pricing-price-plan" id="price-plan">
+        <div class="container">
+            <div class="row">
+                <div class="plan-item-full">
+                    <div class="plan-head-item">
+                        <ul class="active-deactive-item">
+                            <li><a class="subsBtn activeBtn" href="#"><i class="fas fa-calendar-check"></i> Monthly</a></li>
+                            <li><a class="subsBtn" href="#"><i class="fas fa-calendar-check"></i> Yearly</a></li>
+                        </ul>
+                        <div class="plan-item-contents">
+                            <div class="plan-item plan-item-first">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="inner-plan-item">
+                                            <div class="head-price">
+                                                <h3>Free</h3>
+                                            </div>
+                                            <div class="price">
+                                                <sup>$</sup>0 <sub>/ monthly</sub>
+                                            </div>
+                                            <ul class="features">
+                                                <li>Up to 3 chat operators <i class="fas fa-badge-check"></i></li>
+                                                <li>100 ChatBot Triggers <i class="fas fa-badge-check"></i></li>
+                                                <li>24/7 Live Chat <i class="fas fa-badge-check"></i></li>
+                                                <li>Email Integration <i class="fas fa-badge-check"></i></li>
+                                                <li>Messenger Integration <i class="fas fa-badge-check"></i></li>
+                                                <li>Visitor Info <i class="fas fa-badge-check"></i></li>
+                                                <li>Mobile + Desktop Apps <i class="fas fa-badge-check"></i></li>
+                                                <li>Quick Responses <i class="fas fa-badge-check"></i></li>
+                                                <li>Drag & Drop Widgets <i class="fas fa-badge-check"></i></li>
+                                                <li>Visitor Notes <i class="fas fa-badge-check"></i></li>
+                                                <li>Google Analytics <i class="fas fa-badge-check"></i></li>
+                                            </ul>
+                                            <div class="item-btn">
+                                                <a class="change-color" href="#"><i class="fab fa-hotjar"></i> Try It Free Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="inner-plan-item">
+                                            <div class="head-price">
+                                                <h3>Starter</h3>
+                                            </div>
+                                            <div class="price">
+                                                <sup>$</sup>49 <sub>/ monthly</sub>
+                                            </div>
+                                            <ul class="features">
+                                                <li>Up to 3 chat operators <i class="fas fa-badge-check"></i></li>
+                                                <li>100 ChatBot Triggers <i class="fas fa-badge-check"></i></li>
+                                                <li>24/7 Live Chat <i class="fas fa-badge-check"></i></li>
+                                                <li>Email Integration <i class="fas fa-badge-check"></i></li>
+                                                <li>Messenger Integration <i class="fas fa-badge-check"></i></li>
+                                                <li>Visitor Info <i class="fas fa-badge-check"></i></li>
+                                                <li>Mobile + Desktop Apps <i class="fas fa-badge-check"></i></li>
+                                                <li>Quick Responses <i class="fas fa-badge-check"></i></li>
+                                                <li>Drag & Drop Widgets <i class="fas fa-badge-check"></i></li>
+                                                <li>Visitor Notes <i class="fas fa-badge-check"></i></li>
+                                                <li>Google Analytics <i class="fas fa-badge-check"></i></li>
+                                            </ul>
+                                            <div class="item-btn">
+                                                <a class="change-color" href="#"><i class="fab fa-hotjar"></i> Try It Free Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 make-it-offset">
+                                        <div class="inner-plan-item">
+                                            <div class="head-price">
+                                                <h3>Professional</h3>
+                                            </div>
+                                            <div class="price">
+                                                <sup>$</sup>79 <sub>/ monthly</sub>
+                                            </div>
+                                            <ul class="features">
+                                                <li>Up to 3 chat operators <i class="fas fa-badge-check"></i></li>
+                                                <li>100 ChatBot Triggers <i class="fas fa-badge-check"></i></li>
+                                                <li>24/7 Live Chat <i class="fas fa-badge-check"></i></li>
+                                                <li>Email Integration <i class="fas fa-badge-check"></i></li>
+                                                <li>Messenger Integration <i class="fas fa-badge-check"></i></li>
+                                                <li>Visitor Info <i class="fas fa-badge-check"></i></li>
+                                                <li>Mobile + Desktop Apps <i class="fas fa-badge-check"></i></li>
+                                                <li>Quick Responses <i class="fas fa-badge-check"></i></li>
+                                                <li>Drag & Drop Widgets <i class="fas fa-badge-check"></i></li>
+                                                <li>Visitor Notes <i class="fas fa-badge-check"></i></li>
+                                                <li>Google Analytics <i class="fas fa-badge-check"></i></li>
+                                            </ul>
+                                            <div class="item-btn">
+                                                <a class="change-color " href="#"><i class="fab fa-hotjar"></i> Try It Free Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="transitioned-item-div">
+                                <div class="plan-item plan-item-second">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-4">
+                                            <div class="inner-plan-item">
+                                                <div class="head-price">
+                                                    <h3>Free</h3>
+                                                </div>
+                                                <div class="price">
+                                                    <sup>$</sup>0 <sub>/ yearly</sub>
+                                                </div>
+                                                <ul class="features">
+                                                    <li>Up to 3 chat operators <i class="fas fa-badge-check"></i></li>
+                                                    <li>100 ChatBot Triggers <i class="fas fa-badge-check"></i></li>
+                                                    <li>24/7 Live Chat <i class="fas fa-badge-check"></i></li>
+                                                    <li>Email Integration <i class="fas fa-badge-check"></i></li>
+                                                    <li>Messenger Integration <i class="fas fa-badge-check"></i></li>
+                                                    <li>Visitor Info <i class="fas fa-badge-check"></i></li>
+                                                    <li>Mobile + Desktop Apps <i class="fas fa-badge-check"></i></li>
+                                                    <li>Quick Responses <i class="fas fa-badge-check"></i></li>
+                                                    <li>Drag & Drop Widgets <i class="fas fa-badge-check"></i></li>
+                                                    <li>Visitor Notes <i class="fas fa-badge-check"></i></li>
+                                                    <li>Google Analytics <i class="fas fa-badge-check"></i></li>
+                                                </ul>
+                                                <div class="item-btn">
+                                                    <a class="change-color" href="#"><i class="fab fa-hotjar"></i> Try It Free Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4">
+                                            <div class="inner-plan-item">
+                                                <div class="head-price">
+                                                    <h3>Starter</h3>
+                                                </div>
+                                                <div class="price">
+                                                    <sup>$</sup>79 <sub>/ yearly</sub>
+                                                </div>
+                                                <ul class="features">
+                                                    <li>Up to 3 chat operators <i class="fas fa-badge-check"></i></li>
+                                                    <li>100 ChatBot Triggers <i class="fas fa-badge-check"></i></li>
+                                                    <li>24/7 Live Chat <i class="fas fa-badge-check"></i></li>
+                                                    <li>Email Integration <i class="fas fa-badge-check"></i></li>
+                                                    <li>Messenger Integration <i class="fas fa-badge-check"></i></li>
+                                                    <li>Visitor Info <i class="fas fa-badge-check"></i></li>
+                                                    <li>Mobile + Desktop Apps <i class="fas fa-badge-check"></i></li>
+                                                    <li>Quick Responses <i class="fas fa-badge-check"></i></li>
+                                                    <li>Drag & Drop Widgets <i class="fas fa-badge-check"></i></li>
+                                                    <li>Visitor Notes <i class="fas fa-badge-check"></i></li>
+                                                    <li>Google Analytics <i class="fas fa-badge-check"></i></li>
+                                                </ul>
+                                                <div class="item-btn">
+                                                    <a class="change-color" href="#"><i class="fab fa-hotjar"></i> Try It Free Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 make-it-offset">
+                                            <div class="inner-plan-item">
+                                                <div class="head-price">
+                                                    <h3>Professional</h3>
+                                                </div>
+                                                <div class="price">
+                                                    <sup>$</sup>99 <sub>/ yearly</sub>
+                                                </div>
+                                                <ul class="features">
+                                                    <li>Up to 3 chat operators <i class="fas fa-badge-check"></i></li>
+                                                    <li>100 ChatBot Triggers <i class="fas fa-badge-check"></i></li>
+                                                    <li>24/7 Live Chat <i class="fas fa-badge-check"></i></li>
+                                                    <li>Email Integration <i class="fas fa-badge-check"></i></li>
+                                                    <li>Messenger Integration <i class="fas fa-badge-check"></i></li>
+                                                    <li>Visitor Info <i class="fas fa-badge-check"></i></li>
+                                                    <li>Mobile + Desktop Apps <i class="fas fa-badge-check"></i></li>
+                                                    <li>Quick Responses <i class="fas fa-badge-check"></i></li>
+                                                    <li>Drag & Drop Widgets <i class="fas fa-badge-check"></i></li>
+                                                    <li>Visitor Notes <i class="fas fa-badge-check"></i></li>
+                                                    <li>Google Analytics <i class="fas fa-badge-check"></i></li>
+                                                </ul>
+                                                <div class="item-btn">
+                                                    <a class="change-color" href="#"><i class="fab fa-hotjar"></i> Try It Free Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pricing-accardion" id="strax-accardion">
+        <div class="container-fluid accardion-cont">
+            <div class="row">
+                <div class="col-lg-7 col-md-12">
+                    <div class="accardion-full">
+                        <div class="title-of-accardion">
+                            <h2>Get to know about<span> Strax</span></h2>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What access do I have on the free plan?</button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                            it to make a type specimen book.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What access do I have on a free trial?</button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                            it to make a type specimen book.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Does the price go up as my team gets larger?</button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                            it to make a type specimen book.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">How can I cancel/pause my subscription?</button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                            it to make a type specimen book.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Can I pay via an invoice?</button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                            it to make a type specimen book.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 a-Img-col">
+                    <div class="strax-accardion-img">
+                        <img src="img/Home-Img/accardion-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="client-title">
+                        <h2>Our Loving Clients</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clients">
+                <div class="client">
+                    <a href="#"><img src="img/Home-Img/1.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="#"><img src="img/Home-Img/2.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="#"><img src="img/Home-Img/3.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="#"><img src="img/Home-Img/4.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="#"><img src="img/Home-Img/5.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="#"><img src="img/Home-Img/6.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="#"><img src="img/Home-Img/7.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="#"><img src="img/Home-Img/8.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="#"><img src="img/Home-Img/9.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="practice">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="full-practice">
+                        <h2>Practice active listening and follow through</h2>
+                        <p>Qualify your leads & recognize the value of word your customer will love you</p>
+                        <a href="#"><i class="fab fa-hotjar"></i>Try It Free Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-10 shapes">
+            <img src="img/shapes/shape-10.png" alt="">
+        </div>
+        <div class="shape-7 shapes">
+            <img src="img/shapes/shape-7.png" alt="">
+        </div>
+        <div class="shape-11 shapes">
+            <img src="img/shapes/shape-11.png" alt="">
+        </div>
+        <div class="shape-12 shapes">
+            <img src="img/shapes/shape-12.png" alt="">
+        </div>
+    </section>
+</main>
